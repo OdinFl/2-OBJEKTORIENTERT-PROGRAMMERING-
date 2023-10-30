@@ -8,7 +8,21 @@ class Planet:
         self.radius = radius
 
 jorden = Planet( "Jorden", 152, 6371)
-
+mars = Planet("Mars", 227.9, 3389.5)
+jupiter = Planet("Jupiter", 778.5, 69911)
+print(jorden.radius)
+print(jorden)
+print(jorden.navn)
+print(jorden.solavstand)
+print(jorden.radius)
+print(mars)
+print(mars.navn)
+print(mars.solavstand)
+print(mars.radius)
+print(jupiter)
+print(jupiter.navn)
+print(jupiter.solavstand)
+print(jupiter.radius)
 # Oppgave 1: 
 # Lag et objekt for Mars, Jupiter og Jorda, der du lagrer informasjon om navn, solavstand og radius. Lagre disse objektene i egne variabler
 
@@ -18,4 +32,10 @@ jorden = Planet( "Jorden", 152, 6371)
 
 # OBS: pass på rekkefølgen i argumentene til konstruktøren.
 
+# heltall = 1
+# desimaltall = 3.14
+# tekst = "Hei"
 
+# print(type(heltall))
+# print(type(desimaltall))
+# print(type(tekst))
