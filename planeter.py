@@ -1,11 +1,12 @@
 
 class Planet:
     " En klasse for å beskrive en planet"
-    def __init__(self,navn:str,solavstand:float,radius:float) -> None:
+    def __init__(self,navn:str,solavstand:float,radius:float,antallRinger=0) -> None:
 
         self.navn=navn
         self.solavstand=solavstand
         self.radius = radius
+        self.antallRinger=antallRinger
 
 jorden = Planet( "Jorden", 152, 6371)
 mars = Planet("Mars", 227.9, 3389.5)
@@ -29,7 +30,9 @@ print(jupiter.radius)
 # Hva skjer om du skriver print(Jorda)?
 # Hva skjer om du skriver print(Jorda.navn)?
 # Prøv å skriv ut de andre attributtene til klassen
-
+print(jorden)
+print(jorden.navn)
+print(jorden.antallRinger)
 # OBS: pass på rekkefølgen i argumentene til konstruktøren.
 
 # heltall = 1
